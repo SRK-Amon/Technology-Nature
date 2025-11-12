@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background: #FFFFFF1A;
+    border-radius: 40px;
+    border: 2px solid;
+    border: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF1A 10%, rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(2px);
+    padding: 23px 85px;
+
+    font-family: var(--f800);
+    font-size: 16px;
+    color: #A4CCD2;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:active {
+        transform: scale(0.85);
+    }
+}
+
+.title {
+    font-family: var(--f500);
+    font-size: 48px;
+    /* background: linear-gradient(180deg, #93EBDD 0%, #A4CCD2 100%); */
+    color: #A4CCD2;
+}
+
+.title::before {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--f300);
+    font-size: 20px;
+    line-height: 90%;
+    color: #F3F3F3;
+    margin-bottom: 20px;
+
+}
+
+:root {
+    --f300: "Fustat-Light";
+    --f400: "Fustat-Regular";
+    --f500: "Fustat-Medium";
+    --f800: "Fustat-ExtraBold";
+}
