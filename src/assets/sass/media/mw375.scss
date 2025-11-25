@@ -1,0 +1,124 @@
+@media(max-width:375px) {
+    .btn {
+        padding: 5px 14px;
+        font-size: 10px;
+    }
+
+    .title {
+        font-size: 15px;
+
+        &::before {
+            font-size: 8px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .intro {
+        height: 250px;
+    }
+
+    .main {
+        padding: 10px 20px;
+
+        &__box {
+            gap: 15px;
+
+            .about {
+                gap: 10px;
+
+                &__box {
+                    gap: 8px;
+
+                    .about__text {
+                        font-size: 9px;
+                    }
+                }
+
+                .about__img {
+                    max-height: 155px;
+                }
+            }
+
+            .gallery {
+                gap: 5px;
+
+                &__box {
+                    .gallery__img {
+                        height: 90px;
+                    }
+                }
+            }
+
+            .projects {
+                gap: 10px;
+
+                &__box {
+                    gap: 10px;
+
+                    .card {
+                        gap: 8px;
+
+                        &__img {
+                            width: 130px;
+                            height: 90px;
+                        }
+
+                        &__box {
+                            gap: 10px;
+
+                            .card__info {
+                                gap: 10px;
+
+                                .card__title {
+                                    font-size: 12px;
+                                }
+
+                                .card__text {
+                                    font-size: 9px;
+                                }
+                            }
+
+                            .card__btn {
+                                padding: 6px 9px;
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 20px 30px;
+        padding-bottom: 45px;
+        &__box {
+            .footer__card {
+                gap: 10px;
+
+                .footer__link {
+                    font-size: 10px;
+                }
+
+                .footer_title {
+                    font-size: 10px;
+
+                }
+
+                .footer__text {
+                    font-size: 10px;
+                }
+
+                .social_media__box {
+                    gap: 10px;
+
+                    img {
+                        width: 12px;
+                        height: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+}

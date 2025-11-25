@@ -10,15 +10,15 @@ const Contacts = () => {
         <h2 class="contacts__title title">CONTACTS</h2>
         <div class="contacts__info info">
           <h3 class="info__title">Call us at this number:</h3>
-          <p class="info__text">+(212) 111-4242</p>
+          <p class="info__text"><span>•</span>+(212) 111-4242</p>
         </div>
         <div class="contacts__info info">
           <h3 class="info__title">The agency is located at:</h3>
-          <p class="info__text">State of California, Los Angeles Country</p>
+          <p class="info__text"><span>•</span>State of California, Los Angeles Country</p>
         </div>
         <div class="contacts__info info">
           <h3 class="info__title">Contact us by mail:</h3>
-          <p class="info__text">Design@interior.agency</p>
+          <p class="info__text"><span>•</span>Design@interior.agency</p>
         </div>
         <div class="contacts__info info">
           <h3 class="info__title">Follow us on social networks:</h3>

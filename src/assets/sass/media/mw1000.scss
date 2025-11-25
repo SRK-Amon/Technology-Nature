@@ -1,0 +1,1465 @@
+// @media(max-width:1300px) {
+//     .btn {
+//         padding: 18px 63px;
+//     }
+
+//     .title {
+//         font-size: 40px;
+
+//         &::before {
+//             font-size: 18px;
+//             margin-bottom: 10px;
+//         }
+//     }
+
+//     .intro {
+//         height: 700px;
+
+//         &__box {
+//             .intro__title {
+//                 font-size: 75px;
+//             }
+
+//             .intro__subTitle {
+//                 font-size: 25px;
+//                 margin: 30px 0 45px 0;
+//             }
+//         }
+//     }
+
+//     .main {
+//         padding: 130px 150px;
+
+//         &__box {
+//             gap: 130px;
+
+//             .about {
+//                 &__box {
+//                     gap: 35px;
+//                 }
+
+//                 .about__img {
+//                     max-height: 450px;
+//                 }
+
+//             }
+
+//             .gallery {
+//                 &__box {
+//                     .gallery__img {
+//                         &:nth-child(1) {
+//                             grid-row: span 2;
+//                             grid-column: span 3;
+//                         }
+
+//                         &:nth-child(2) {
+//                             grid-row: span 2;
+//                             grid-column: span 2;
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .projects {
+//                 &__box {
+//                     .card {
+//                         &__img {
+//                             width: 450px;
+//                             height: 250px;
+//                         }
+
+//                         &__box {
+//                             .card__info {
+//                                 .card__title {
+//                                     font-size: 22px;
+//                                 }
+
+//                                 .card__text {
+//                                     font-size: 15px;
+//                                 }
+//                             }
+
+//                             .card__btn {
+//                                 padding: 15px 50px;
+//                                 font-size: 15px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .contacts {
+
+//                 .contacts__img {
+//                     max-height: 450px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width:1200px) {
+//     .title {
+//         font-size: 35px;
+
+//         &::before {
+//             font-size: 17px;
+//             margin-bottom: 9.5px;
+//         }
+//     }
+
+//     .main {
+//         padding: 120px 135px;
+
+//         &__box {
+//             gap: 110px;
+
+//             .about {
+//                 gap: 40px;
+
+//                 &__box {
+//                     gap: 25px;
+
+//                     .about__text {
+//                         max-width: 350px;
+//                         font-size: 15px;
+//                     }
+//                 }
+
+//                 .about__img {
+//                     max-height: 400px;
+//                 }
+//             }
+
+//             .gallery {
+//                 &__box {
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: start;
+//                     overflow: hidden;
+//                     overflow-x: scroll;
+
+//                     .gallery__img {
+//                         width: 100%;
+//                         height: 250px;
+//                         object-fit: cover;
+//                     }
+//                 }
+//             }
+
+//             .projects {
+//                 gap: 70px;
+
+//                 &__box {
+//                     .card {
+//                         &__img {
+//                             width: 380px;
+//                             height: 200px;
+//                         }
+
+//                         &__box {
+//                             .card__info {
+//                                 gap: 35px;
+
+//                                 .card__title {
+//                                     font-size: 20px;
+//                                 }
+
+//                                 .card__text {
+//                                     font-size: 14px;
+//                                 }
+//                             }
+
+//                             .card__btn {
+//                                 padding: 14px 45px;
+//                                 font-size: 14px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .contacts {
+//                 &__box {
+//                     .contacts__info {
+//                         gap: 5px;
+
+//                         .info__title {
+//                             font-size: 18px;
+//                         }
+
+//                         .info__text {
+//                             font-size: 15px;
+//                         }
+
+//                         .social_media__box {
+//                             gap: 35px;
+//                         }
+//                     }
+
+//                 }
+
+//                 .contacts__img {
+//                     max-height: 350px;
+//                 }
+//             }
+//         }
+//     }
+
+//     .footer {
+//         padding: 90px 120px;
+
+//         &__box {
+//             .footer__card {
+//                 gap: 35px;
+
+//                 .footer__link {
+//                     font-size: 15px;
+//                 }
+
+//                 .footer_title {
+//                     font-size: 15px;
+
+//                 }
+
+//                 .footer__text {
+//                     font-size: 15px;
+//                     gap: 5px;
+//                 }
+
+//                 .social_media__box {
+//                     gap: 35px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+@media(max-width:1000px) {
+    .btn {
+        padding: 15px 53px;
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 30px;
+
+        &::before {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+    }
+
+    .nav {
+        padding: 7px 6px;
+
+        &__box {
+            .nav__logo {
+                width: 42px;
+                height: 42px;
+            }
+
+            .nav__list {
+                gap: 40px;
+
+                .nav__link {
+                    font-size: 15px;
+                }
+            }
+
+            .nav__call {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .intro {
+        height: 600px;
+
+        &__box {
+            .intro__title {
+                font-size: 65px;
+            }
+
+            .intro__subTitle {
+                font-size: 21px;
+                margin: 25px 0 40px 0;
+            }
+        }
+    }
+
+    .main {
+        padding: 100px 120px;
+
+        &__box {
+            gap: 90px;
+
+            .about {
+                gap: 35px;
+
+                &__box {
+                    gap: 25px;
+
+                    .about__text {
+                        max-width: 300px;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 8;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                        overflow-y: scroll;
+                        font-size: 14px;
+                    }
+
+                    .about__img {
+                        max-height: 350px;
+                    }
+                }
+
+            }
+
+            .gallery {
+                gap: 35px;
+
+                &__box {
+                    .gallery__img {
+                        height: 230px;
+                    }
+                }
+            }
+
+            .projects {
+                gap: 60px;
+
+                &__box {
+                    gap: 30px;
+
+                    .card {
+                        &__img {
+                            width: 300px;
+                            height: 170px;
+                        }
+
+                        &__box {
+                            .card__info {
+                                gap: 30px;
+
+                                .card__title {
+                                    font-size: 18px;
+                                }
+
+                                .card__text {
+                                    font-size: 13px;
+                                }
+                            }
+
+                            .card__btn {
+                                padding: 13px 35px;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contacts {
+                &__box {
+                    .contacts__info {
+                        .info__title {
+                            font-size: 17px;
+                        }
+
+                        .info__text {
+                            font-size: 14px;
+                        }
+
+                        .social_media__box {
+                            gap: 30px;
+
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+
+                }
+
+                .contacts__img {
+                    max-height: 300px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 80px 120px;
+
+        &__box {
+            .footer__card {
+                gap: 30px;
+
+                .footer__link {
+                    font-size: 14px;
+                }
+
+                .footer_title {
+                    font-size: 14px;
+
+                }
+
+                .footer__text {
+                    font-size: 14px;
+                    gap: 5px;
+                }
+
+                .social_media__box {
+                    gap: 30px;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media(max-width:900px) {
+//     .btn {
+//         padding: 13px 40px;
+//         font-size: 15px;
+
+//         span {
+//             font-size: 13.5px;
+//         }
+//     }
+
+//     .title {
+//         font-size: 25px;
+
+//         &::before {
+//             font-size: 15px;
+//             margin-bottom: 6px;
+//         }
+//     }
+
+//     .nav {
+//         top: unset;
+//         bottom: 0;
+//         border: none;
+//         border-top: 1px solid #F3F3F3;
+
+//         &__box {
+//             display: none;
+//         }
+
+//         &__mobile--images {
+//             display: flex;
+//             justify-content: space-around;
+//             align-items: center;
+//             & img{
+//                 width: 35px;
+//                 height: 35px;
+//             }
+//         }
+//     }
+
+//     .intro {
+//         height: 500px;
+
+//         &__box {
+//             .intro__title {
+//                 font-size: 60px;
+//             }
+
+//             .intro__subTitle {
+//                 font-size: 20px;
+//             }
+//         }
+//     }
+
+//     .main {
+//         padding: 80px 90px;
+
+//         &__box {
+//             gap: 70px;
+
+//             .about {
+
+//                 &__box {
+//                     gap: 20px;
+
+//                     .about__text {
+//                         -webkit-line-clamp: 9;
+//                     }
+//                 }
+
+//                 .about__img {
+//                     max-height: 300px;
+//                 }
+//             }
+
+//             .gallery {
+//                 gap: 30px;
+
+//                 &__box {
+//                     .gallery__img {
+//                         height: 200px;
+//                     }
+//                 }
+//             }
+
+//             .projects {
+//                 gap: 50px;
+
+//                 &__box {
+//                     gap: 25px;
+
+//                     .card {
+//                         &__img {
+//                             width: 270px;
+//                             height: 160px;
+//                         }
+
+//                         &__box {
+//                             .card__info {
+//                                 gap: 27px;
+
+//                                 .card__title {
+//                                     font-size: 17px;
+//                                 }
+
+//                                 .card__text {
+//                                     font-size: 12px;
+//                                 }
+//                             }
+
+//                             .card__btn {
+//                                 padding: 11px 30px;
+//                                 font-size: 12px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .contacts {
+//                 &__box {
+//                     .contacts__info {
+//                         .info__title {
+//                             font-size: 16px;
+//                         }
+
+//                         .info__text {
+//                             font-size: 13px;
+//                         }
+
+//                         .social_media__box {
+//                             gap: 25px;
+//                         }
+//                     }
+
+//                 }
+
+//                 .contacts__img {
+//                     max-height: 280px;
+//                 }
+//             }
+//         }
+//     }
+
+//     .footer {
+//         padding: 70px 100px;
+
+//         &__box {
+//             .footer__card {
+//                 gap: 25px;
+
+//                 .social_media__box {
+//                     gap: 25px;
+
+//                     img {
+//                         width: 22px;
+//                         height: 22px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media(max-width:800px) {
+//     .btn {
+//         padding: 10px 30px;
+//         font-size: 14px;
+
+//         span {
+//             font-size: 12px;
+//         }
+//     }
+
+//     .title {
+//         font-size: 24px;
+
+//         &::before {
+//             font-size: 14.2px;
+//             margin-bottom: 6px;
+//         }
+//     }
+
+//      .nav {
+//         padding: 6px 5px;
+//         &__mobile--images {
+//             & img{
+//                 width: 30px;
+//                 height: 30px;
+//             }
+//         }
+//     }
+
+//     .intro {
+//         height: 400px;
+
+//         &__box {
+//             .intro__title {
+//                 font-size: 50px;
+//             }
+
+//             .intro__subTitle {
+//                 font-size: 19px;
+//                 margin: 20px 0 30px 0;
+//             }
+//         }
+//     }
+
+//     .main {
+//         padding: 60px 70px;
+
+//         &__box {
+//             gap: 50px;
+
+//             .about {
+//                 gap: 30px;
+
+//                 &__box {
+//                     gap: 18px;
+
+//                     .about__text {
+//                         -webkit-line-clamp: 8;
+//                         font-size: 13px;
+//                     }
+//                 }
+
+//                 .about__img {
+//                     max-height: 270px;
+//                 }
+//             }
+
+//             .gallery {
+//                 gap: 25px;
+
+//                 &__box {
+//                     .gallery__img {
+//                         height: 180px;
+//                     }
+//                 }
+//             }
+
+//             .projects {
+//                 gap: 45px;
+
+//                 &__box {
+//                     gap: 20px;
+
+//                     .card {
+//                         &__img {
+//                             width: 250px;
+//                             height: 150px;
+//                         }
+
+//                         &__box {
+//                             .card__info {
+//                                 gap: 25px;
+
+//                                 .card__title {
+//                                     font-size: 16px;
+//                                 }
+
+//                                 .card__text {
+//                                     font-size: 12px;
+//                                 }
+//                             }
+
+//                             .card__btn {
+//                                 padding: 10px 27px;
+//                                 font-size: 12px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .contacts {
+//                 &__box {
+//                     .contacts__info {
+//                         .info__title {
+//                             font-size: 15px;
+//                         }
+
+//                         .info__text {
+//                             font-size: 13px;
+//                         }
+
+//                         .social_media__box {
+//                             gap: 20px;
+
+//                             img {
+//                                 width: 15px;
+//                                 height: 15px;
+//                             }
+//                         }
+//                     }
+
+//                 }
+
+//                 .contacts__img {
+//                     max-height: 240px;
+//                 }
+//             }
+//         }
+//     }
+
+//     .footer {
+//         padding: 60px 90px;
+
+//         &__box {
+//             .footer__card {
+//                 gap: 20px;
+
+//                 .footer__link {
+//                     font-size: 13px;
+//                 }
+
+//                 .footer_title {
+//                     font-size: 13px;
+
+//                 }
+
+//                 .footer__text {
+//                     font-size: 13px;
+//                     gap: 4px;
+//                 }
+
+//                 .social_media__box {
+//                     gap: 25px;
+
+//                     img {
+//                         width: 20px;
+//                         height: 20px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media(max-width:700px) {
+//     .btn {
+//         padding: 8px 22px;
+//         font-size: 13px;
+
+//         span {
+//             font-size: 11px;
+//         }
+//     }
+
+//     .title {
+//         font-size: 22px;
+
+//         &::before {
+//             font-size: 12px;
+//             margin-bottom: 5px;
+//         }
+//     }
+
+//      .nav {
+//         padding: 6px 5px;
+//         &__mobile--images {
+//             & img{
+//                 width: 25px;
+//                 height: 25px;
+//             }
+//         }
+//     }
+
+//     .intro {
+//         height: 350px;
+
+//         &__box {
+//             .intro__title {
+//                 font-size: 40px;
+//             }
+
+//             .intro__subTitle {
+//                 margin: 10px 0 20px 0;
+//             }
+//         }
+//     }
+
+//     .main {
+//         padding: 50px 60px;
+
+//         &__box {
+//             gap: 40px;
+
+//             .about {
+//                 gap: 25px;
+
+//                 &__box {
+//                     gap: 16px;
+
+//                     .about__text {
+//                         max-width: 350px;
+//                         display: flex;
+//                         font-size: 12px;
+//                     }
+//                 }
+
+//                 .about__img {
+//                     max-height: 250px;
+//                 }
+//             }
+
+//             .gallery {
+//                 gap: 20px;
+
+//                 &__box {
+//                     .gallery__img {
+//                         height: 150px;
+//                     }
+//                 }
+//             }
+
+//             .projects {
+//                 gap: 40px;
+
+//                 &__title {
+//                     width: 50%;
+//                 }
+
+//                 &__box {
+//                     gap: 20px;
+
+//                     .card {
+//                         &__img {
+//                             width: 230px;
+//                             height: 140px;
+//                         }
+
+//                         &__box {
+//                             .card__info {
+//                                 gap: 20px;
+
+//                                 .card__title {
+//                                     font-size: 15px;
+//                                 }
+
+//                                 .card__text {
+//                                     font-size: 11.5px;
+//                                 }
+//                             }
+
+//                             .card__btn {
+//                                 padding: 9px 22px;
+//                                 font-size: 11.5px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .contacts {
+//                 flex-direction: column;
+//                 gap: 15px;
+
+//                 &__box {
+//                     flex-direction: unset;
+//                     flex-wrap: wrap;
+//                     justify-content: start;
+//                     row-gap: 10px;
+
+//                     .contacts__title {
+//                         width: 100%;
+//                     }
+
+//                     .contacts__info {
+//                         width: 50%;
+
+//                         .info__title {
+//                             font-size: 14px;
+//                         }
+
+//                         .info__text {
+//                             font-size: 12px;
+//                         }
+
+//                         .social_media__box {
+//                             gap: 15px;
+
+//                             img {
+//                                 width: 13px;
+//                                 height: 13px;
+//                             }
+//                         }
+//                     }
+
+//                 }
+
+//                 .contacts__img {
+//                     max-height: 300px;
+//                 }
+//             }
+//         }
+//     }
+
+//     .footer {
+//         padding: 50px 80px;
+
+//         &__box {
+//             .footer__card {
+//                 gap: 15px;
+
+//                 .footer__link {
+//                     font-size: 12.5px;
+//                 }
+
+//                 .footer_title {
+//                     font-size: 12.5px;
+
+//                 }
+
+//                 .footer__text {
+//                     font-size: 12.5px;
+//                     gap: 3px;
+//                 }
+
+//                 .social_media__box {
+//                     gap: 20px;
+
+//                     img {
+//                         width: 19px;
+//                         height: 19px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media(max-width:600px) {
+//     .btn {
+//         padding: 8px 19px;
+//         font-size: 12px;
+
+//         span {
+//             font-size: 10px;
+//         }
+//     }
+
+//     .title {
+//         font-size: 20px;
+
+//         &::before {
+//             font-size: 10, 5px;
+//             margin-bottom: 5px;
+//         }
+//     }
+
+//    .nav {
+//         padding: 5px 4px;
+//         &__mobile--images {
+//             & img{
+//                 width: 20px;
+//                 height: 20px;
+//             }
+//         }
+//     }
+
+//     .intro {
+//         &__box {
+//             .intro__title {
+//                 font-size: 30px;
+//             }
+
+//             .intro__subTitle {
+//                 font-size: 17px;
+//             }
+//         }
+//     }
+
+//     .main {
+//         padding: 30px 40px;
+
+//         &__box {
+//             gap: 30px;
+
+//             .about {
+//                 gap: 20px;
+//                 flex-direction: column;
+
+//                 &__box {
+//                     gap: 12px;
+
+//                     .about__text {
+//                         display: -webkit-box;
+//                         font-size: 11px;
+//                     }
+//                 }
+
+//                 .about__img {
+//                     max-height: 210px;
+//                 }
+//             }
+
+//             .gallery {
+//                 gap: 15px;
+
+//                 &__box {
+//                     .gallery__img {
+//                         height: 150px;
+//                     }
+//                 }
+//             }
+
+//             .projects {
+//                 gap: 30px;
+
+//                 &__title {
+//                     max-width: 200px;
+//                 }
+
+//                 &__box {
+//                     flex-direction: row;
+//                     overflow: hidden;
+//                     overflow-x: scroll;
+//                     gap: 15px;
+
+//                     .card {
+//                         flex-direction: column;
+//                         gap: 20px;
+
+//                         &__img {
+//                             width: 200px;
+//                             height: 130px;
+//                         }
+
+//                         &__box {
+//                             align-items: start;
+//                             gap: 20px;
+
+//                             .card__info {
+//                                 align-items: start;
+//                                 gap: 20px;
+
+//                                 .card__title {
+//                                     font-size: 14px;
+//                                 }
+
+//                                 .card__text {
+//                                     font-size: 11px;
+//                                 }
+//                             }
+
+//                             .card__btn {
+//                                 padding: 8px 18px;
+//                                 font-size: 11px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .contacts {
+//                 flex-direction: column;
+
+//                 &__box {
+//                     flex-direction: column;
+//                     gap: 8px;
+
+//                     .contacts__title {
+//                         width: 100%;
+//                     }
+
+//                     .contacts__info {
+//                         width: 100%;
+
+//                         .info__title {
+//                             font-size: 13px;
+//                         }
+
+//                         .info__text {
+//                             font-size: 11px;
+//                         }
+
+//                         .social_media__box {
+//                             gap: 10px;
+
+//                             img {
+//                                 width: 13px;
+//                                 height: 13px;
+//                             }
+//                         }
+//                     }
+
+//                 }
+
+//                 .contacts__img {
+//                     align-self: center;
+//                     width: fit-content;
+//                     max-height: 200px;
+//                 }
+//             }
+//         }
+//     }
+
+//     .footer {
+//         padding: 40px 70px;
+
+//         &__box {
+//             display: flex;
+//             flex-wrap: wrap;
+//             justify-content: space-evenly;
+//             gap: 15px;
+
+//             .footer__card {
+//                 .footer__link {
+//                     font-size: 12.5px;
+//                 }
+
+//                 .footer_title {
+//                     font-size: 12.5px;
+
+//                 }
+
+//                 .footer__text {
+//                     font-size: 12.5px;
+//                     gap: 3px;
+//                 }
+
+//                 .social_media__box {
+//                     gap: 20px;
+
+//                     img {
+//                         width: 19px;
+//                         height: 19px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media(max-width:425px) {
+//     .btn {
+//         padding: 5px 18px;
+//         font-size: 11px;
+
+//         span {
+//             font-size: 10px;
+//         }
+//     }
+
+//     .title {
+//         font-size: 17px;
+
+//         &::before {
+//             font-size: 9px;
+//             margin-bottom: 5px;
+//         }
+//     }
+
+//    .nav {
+//         padding: 4px 3px;
+//         &__mobile--images {
+//             & img{
+//                 width: 17px;
+//                 height: 17px;
+//             }
+//         }
+//     }
+
+//     .intro {
+//         height: 300px;
+
+//         &__box {
+//             .intro__title {
+//                 font-size: 22px;
+//             }
+
+//             .intro__subTitle {
+//                 font-size: 12px;
+//             }
+//         }
+//     }
+
+//     .main {
+//         padding: 20px 40px;
+
+//         &__box {
+//             gap: 25px;
+
+//             .about {
+//                 gap: 20px;
+
+//                 &__box {
+//                     gap: 12px;
+
+//                     .about__text {
+//                         font-size: 10px;
+//                     }
+//                 }
+
+//                 .about__img {
+//                     max-height: 190px;
+//                 }
+//             }
+
+//             .gallery {
+//                 gap: 10px;
+
+//                 &__box {
+//                     .gallery__img {
+//                         height: 120px;
+//                     }
+//                 }
+//             }
+
+//             .projects {
+//                 gap: 15px;
+
+//                 &__box {
+//                     gap: 15px;
+
+//                     .card {
+//                         gap: 10px;
+
+//                         &__img {
+//                             width: 150px;
+//                             height: 100px;
+//                         }
+
+//                         &__box {
+//                             gap: 15px;
+
+//                             .card__info {
+//                                 gap: 15px;
+
+//                                 .card__title {
+//                                     font-size: 13px;
+//                                 }
+
+//                                 .card__text {
+//                                     font-size: 10px;
+//                                 }
+//                             }
+
+//                             .card__btn {
+//                                 padding: 7px 12px;
+//                                 font-size: 10px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .contacts {
+
+//                 &__box {
+//                     gap: 8px;
+
+//                     .contacts__info {
+//                         .info__title {
+//                             font-size: 12px;
+//                         }
+
+//                         .info__text {
+//                             font-size: 10px;
+//                         }
+
+//                         .social_media__box {
+//                             gap: 10px;
+
+//                             img {
+//                                 width: 12px;
+//                                 height: 12px;
+//                             }
+//                         }
+//                     }
+
+//                 }
+
+//                 .contacts__img {
+//                     max-height: 170px;
+//                 }
+//             }
+//         }
+//     }
+
+//     .footer {
+//         padding: 30px 60px;
+
+//         &__box {
+//             .footer__card {
+//                 gap: 15px;
+
+//                 .footer__link {
+//                     font-size: 11px;
+//                 }
+
+//                 .footer_title {
+//                     font-size: 11px;
+
+//                 }
+
+//                 .footer__text {
+//                     font-size: 11px;
+//                 }
+
+//                 .social_media__box {
+//                     gap: 15px;
+
+//                     img {
+//                         width: 15px;
+//                         height: 15px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media(max-width:375px) {
+//     .btn {
+//         padding: 5px 14px;
+//         font-size: 10px;
+//     }
+
+//     .title {
+//         font-size: 15px;
+
+//         &::before {
+//             font-size: 8px;
+//             margin-bottom: 5px;
+//         }
+//     }
+
+//     .intro {
+//         height: 250px;
+//     }
+
+//     .main {
+//         padding: 10px 20px;
+
+//         &__box {
+//             gap: 15px;
+
+//             .about {
+//                 gap: 10px;
+
+//                 &__box {
+//                     gap: 8px;
+
+//                     .about__text {
+//                         font-size: 9px;
+//                     }
+//                 }
+
+//                 .about__img {
+//                     max-height: 155px;
+//                 }
+//             }
+
+//             .gallery {
+//                 gap: 5px;
+
+//                 &__box {
+//                     .gallery__img {
+//                         height: 90px;
+//                     }
+//                 }
+//             }
+
+//             .projects {
+//                 gap: 10px;
+
+//                 &__box {
+//                     gap: 10px;
+
+//                     .card {
+//                         gap: 8px;
+
+//                         &__img {
+//                             width: 130px;
+//                             height: 90px;
+//                         }
+
+//                         &__box {
+//                             gap: 10px;
+
+//                             .card__info {
+//                                 gap: 10px;
+
+//                                 .card__title {
+//                                     font-size: 12px;
+//                                 }
+
+//                                 .card__text {
+//                                     font-size: 9px;
+//                                 }
+//                             }
+
+//                             .card__btn {
+//                                 padding: 6px 9px;
+//                                 font-size: 9px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .footer {
+//         padding: 20px 40px;
+
+//         &__box {
+//             .footer__card {
+//                 gap: 10px;
+
+//                 .footer__link {
+//                     font-size: 10px;
+//                 }
+
+//                 .footer_title {
+//                     font-size: 10px;
+
+//                 }
+
+//                 .footer__text {
+//                     font-size: 10px;
+//                 }
+
+//                 .social_media__box {
+//                     gap: 10px;
+
+//                     img {
+//                         width: 12px;
+//                         height: 12px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+// }

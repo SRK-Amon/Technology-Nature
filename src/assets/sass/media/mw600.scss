@@ -1,0 +1,202 @@
+@media(max-width:600px) {
+    .btn {
+        padding: 8px 19px;
+        font-size: 12px;
+
+        span {
+            font-size: 10px;
+        }
+    }
+
+    .title {
+        font-size: 20px;
+
+        &::before {
+            font-size: 10, 5px;
+            margin-bottom: 5px;
+        }
+    }
+
+   .nav {
+        padding: 5px 4px;
+        &__mobile--images {
+            & img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .intro {
+        &__box {
+            .intro__title {
+                font-size: 30px;
+            }
+
+            .intro__subTitle {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .main {
+        padding: 30px 40px;
+
+        &__box {
+            gap: 30px;
+
+            .about {
+                gap: 20px;
+                flex-direction: column;
+
+                &__box {
+                    gap: 12px;
+
+                    .about__text {
+                        display: -webkit-box;
+                        font-size: 11px;
+                    }
+                }
+
+                .about__img {
+                    max-height: 210px;
+                }
+            }
+
+            .gallery {
+                gap: 15px;
+
+                &__box {
+                    .gallery__img {
+                        height: 150px;
+                    }
+                }
+            }
+
+            .projects {
+                gap: 30px;
+
+                &__title {
+                    max-width: 200px;
+                }
+
+                &__box {
+                    flex-direction: row;
+                    overflow: hidden;
+                    overflow-x: scroll;
+                    gap: 15px;
+
+                    .card {
+                        flex-direction: column;
+                        gap: 20px;
+
+                        &__img {
+                            width: 200px;
+                            height: 130px;
+                        }
+
+                        &__box {
+                            align-items: start;
+                            gap: 20px;
+
+                            .card__info {
+                                align-items: start;
+                                gap: 20px;
+
+                                .card__title {
+                                    font-size: 14px;
+                                }
+
+                                .card__text {
+                                    font-size: 11px;
+                                }
+                            }
+
+                            .card__btn {
+                                padding: 8px 18px;
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contacts {
+                flex-direction: column;
+
+                &__box {
+                    flex-direction: column;
+                    gap: 8px;
+
+                    .contacts__title {
+                        width: 100%;
+                    }
+
+                    .contacts__info {
+                        width: 100%;
+
+                        .info__title {
+                            font-size: 13px;
+                        }
+
+                        .info__text {
+                            font-size: 11px;
+                        }
+
+                        .social_media__box {
+                            gap: 10px;
+
+                            img {
+                                width: 13px;
+                                height: 13px;
+                            }
+                        }
+                    }
+
+                }
+
+                .contacts__img {
+                    align-self: center;
+                    width: fit-content;
+                    max-height: 200px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 40px 70px;
+
+        &__box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 15px;
+
+            .footer__card {
+                .footer__link {
+                    font-size: 12.5px;
+                }
+
+                .footer_title {
+                    font-size: 12.5px;
+
+                }
+
+                .footer__text {
+                    font-size: 12.5px;
+                    gap: 3px;
+                }
+
+                .social_media__box {
+                    gap: 20px;
+
+                    img {
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -17,7 +17,7 @@ const About = () => {
         </p>
         <button class="btn">More...</button>
       </div>
-      <img src={aboutImg} alt="img_aboutUS" class="about__img" />
+      <img   src={aboutImg} alt="img_aboutUS" class="about__img" />
     </section>
   );
 };

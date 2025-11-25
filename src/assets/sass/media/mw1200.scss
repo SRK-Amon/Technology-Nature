@@ -1,0 +1,136 @@
+@media (max-width:1200px) {
+    .title {
+        font-size: 35px;
+
+        &::before {
+            font-size: 17px;
+            margin-bottom: 9.5px;
+        }
+    }
+
+    .main {
+        padding: 120px 135px;
+
+        &__box {
+            gap: 110px;
+
+            .about {
+                gap: 40px;
+
+                &__box {
+                    gap: 25px;
+
+                    .about__text {
+                        max-width: 350px;
+                        font-size: 15px;
+                    }
+                }
+
+                .about__img {
+                    max-height: 400px;
+                }
+            }
+
+            .gallery {
+                &__box {
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    overflow: hidden;
+                    overflow-x: scroll;
+
+                    .gallery__img {
+                        width: 100%;
+                        height: 250px;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .projects {
+                gap: 70px;
+
+                &__box {
+                    .card {
+                        &__img {
+                            width: 380px;
+                            height: 200px;
+                        }
+
+                        &__box {
+                            .card__info {
+                                gap: 35px;
+
+                                .card__title {
+                                    font-size: 20px;
+                                }
+
+                                .card__text {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .card__btn {
+                                padding: 14px 45px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contacts {
+                &__box {
+                    .contacts__info {
+                        gap: 5px;
+
+                        .info__title {
+                            font-size: 18px;
+                        }
+
+                        .info__text {
+                            font-size: 15px;
+                        }
+
+                        .social_media__box {
+                            gap: 35px;
+                        }
+                    }
+
+                }
+
+                .contacts__img {
+                    max-height: 350px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 90px 120px;
+
+        &__box {
+            .footer__card {
+                gap: 35px;
+
+                .footer__link {
+                    font-size: 15px;
+                }
+
+                .footer_title {
+                    font-size: 15px;
+
+                }
+
+                .footer__text {
+                    font-size: 15px;
+                    gap: 5px;
+                }
+
+                .social_media__box {
+                    gap: 35px;
+                }
+            }
+        }
+    }
+}

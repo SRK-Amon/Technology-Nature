@@ -23,12 +23,12 @@ const Footer = () => {
             </a>
           </div>
           <div class="footer__card">
-            <h4 class="footer_title">CONTACTS</h4>
+            <h3 class="footer_title">CONTACTS</h3>
             <a href="#!" class="footer__text footer_link">
-              +(212) 111-4242
+            <span>•</span> +(212) 111-4242
             </a>
             <a href="#!" class="footer__text footer_link">
-              Technature.agency
+            <span>•</span> Technature.agency
             </a>
           </div>
           <div class="footer__card">

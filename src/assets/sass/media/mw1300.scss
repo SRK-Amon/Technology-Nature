@@ -1,0 +1,99 @@
+@media(max-width:1300px) {
+    .btn {
+        padding: 18px 63px;
+    }
+
+    .title {
+        font-size: 40px;
+
+        &::before {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .intro {
+        height: 700px;
+
+        &__box {
+            .intro__title {
+                font-size: 75px;
+            }
+
+            .intro__subTitle {
+                font-size: 25px;
+                margin: 30px 0 45px 0;
+            }
+        }
+    }
+
+    .main {
+        padding: 130px 150px;
+
+        &__box {
+            gap: 130px;
+
+            .about {
+                &__box {
+                    gap: 35px;
+                }
+
+                .about__img {
+                    max-height: 450px;
+                }
+
+            }
+
+            .gallery {
+                &__box {
+                    .gallery__img {
+                        &:nth-child(1) {
+                            grid-row: span 2;
+                            grid-column: span 3;
+                        }
+
+                        &:nth-child(2) {
+                            grid-row: span 2;
+                            grid-column: span 2;
+                        }
+                    }
+                }
+            }
+
+            .projects {
+                &__box {
+                    .card {
+                        &__img {
+                            width: 450px;
+                            height: 250px;
+                        }
+
+                        &__box {
+                            .card__info {
+                                .card__title {
+                                    font-size: 22px;
+                                }
+
+                                .card__text {
+                                    font-size: 15px;
+                                }
+                            }
+
+                            .card__btn {
+                                padding: 15px 50px;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contacts {
+
+                .contacts__img {
+                    max-height: 450px;
+                }
+            }
+        }
+    }
+}
