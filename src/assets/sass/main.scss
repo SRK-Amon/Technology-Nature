@@ -262,6 +262,8 @@
             }
 
             .contacts__img {
+                width: max-content;
+                align-self: center;
                 height: 500px;
             }
         }
